@@ -1,0 +1,23 @@
+{
+  "name": "sseidelmann/typo3_standard",
+  "license": "MIT",
+  "type": "project",
+  "description": "The \"TYPO3 Standard\" distribution",
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "require": {
+    "php": ">=5.3.9"
+  },
+  "require-dev": {
+
+  },
+  "scripts": {
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "extra": {
+
+  }
+}
