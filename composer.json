@@ -6,12 +6,17 @@
   "autoload": {
     "psr-4": {
       "": "src/"
-    }
+    },
+    "files": [
+      "app/environment.php"
+    ]
   },
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.3.9",
+
     "typo3/cms": "dev-master",
+
     "wfp2/puppet-modules": "dev-master",
     "wfp2/essentials": "@dev"
   },

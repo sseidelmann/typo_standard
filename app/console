@@ -12,10 +12,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 $app        = new Symfony\Component\Console\Application();
 
-$sourcePath = realpath(__DIR__ . '/../src/');
-
 $finder = new \Symfony\Component\Finder\Finder();
-$files = $finder->files()->in($sourcePath . '/typo3conf/ext/')->name('*Command.php');
+$files = $finder->files()->in(WFP2_PATH_EXT)->name('*Command.php');
 
 /* @var $file \Symfony\Component\Finder\SplFileInfo */
 foreach ($files as $file) {
