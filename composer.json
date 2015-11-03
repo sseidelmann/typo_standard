@@ -28,7 +28,7 @@
       "src/typo3_src/": ["type:typo3-cms-core"]
     },
     "typo3/cms": {
-      "web-dir": "",
+      "web-dir": "web",
       "config-dir": "src/typo3conf",
       "backend-dir": "web/typo3",
       "temporary-dir": "app/temp",
