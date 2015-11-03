@@ -26,6 +26,14 @@
     "installer-paths": {
       "src/typo3conf/ext/{$vendor}_{$name}/": ["type:typo3-cms-extension"],
       "src/typo3_src/": ["type:typo3-cms-core"]
+    },
+    "typo3/cms": {
+      "web-dir": "",
+      "config-dir": "src/typo3conf",
+      "backend-dir": "web/typo3",
+      "temporary-dir": "app/temp",
+      "cache-dir": "app/temp/cache",
+      "cms-package-dir": "src/typo3_src"
     }
   },
   "repositories": [
