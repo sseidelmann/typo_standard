@@ -4,7 +4,9 @@
   "type": "project",
   "description": "The \"TYPO3 Standard\" distribution",
   "autoload": {
-    "psr-4": { "": "src/" }
+    "psr-4": {
+      "": "src/"
+    }
   },
   "minimum-stability": "dev",
   "require": {
