@@ -26,8 +26,7 @@
   "extra": {
     "installer-paths": {
       "src/typo3conf/ext/{$vendor}_{$name}/": ["type:typo3-cms-extension"],
-      "src/typo3_src/": ["type:typo3-cms-core"],
-      "dev/puppet/": ["type:wfp2-puppet"]
+      "src/typo3_src/": ["type:typo3-cms-core"]
     },
     "typo3/cms": {
       "web-dir": "web",
