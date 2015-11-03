@@ -12,6 +12,7 @@
   "require": {
     "php": ">=5.3.9",
     "typo3/cms": "dev-master",
+    "wfp2/puppet-modules": "dev-master",
     "wfp2/essentials": "@dev"
   },
   "require-dev": {
@@ -25,7 +26,8 @@
   "extra": {
     "installer-paths": {
       "src/typo3conf/ext/{$vendor}_{$name}/": ["type:typo3-cms-extension"],
-      "src/typo3_src/": ["type:typo3-cms-core"]
+      "src/typo3_src/": ["type:typo3-cms-core"],
+      "dev/puppet/": ["type:wfp2-puppet"]
     },
     "typo3/cms": {
       "web-dir": "web",
@@ -40,6 +42,10 @@
     {
       "type": "vcs",
       "url": "git@bitbucket.org:wfp2/wfp2_essentials.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:wfp2/puppet-modules.git"
     }
   ]
 }
