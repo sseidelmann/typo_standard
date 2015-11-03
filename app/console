@@ -22,7 +22,14 @@ foreach ($files as $file) {
     $app->add(new $className());
 }
 
-$app->run();
+$argvInput = new \Symfony\Component\Console\Input\ArgvInput();
+$output    = new \Symfony\Component\Console\Output\ConsoleOutput();
+
+$output->writeln('');
+$output->writeln('<fg=red>wfp:2 console</fg=red> version <fg=yellow>' . WFP2_TYPO3_BASE_VERSION . '</fg=yellow>');
+$output->writeln('');
+
+$app->run($argvInput, $output);
 
 /**
  * Extracts the namespace from the filepath.
