@@ -20,7 +20,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class CacheClearCommand for clearing the cache.
- * @package WFP2\Wfp2Essentials\Command
+ * @package WFP2\Wfp2Console\Command
  * @author Sebastian Seidelmann <sebastian.seidelmann@wfp2.com>, wfp:2 GmbH & Co. KG
  */
 class CacheClearCommand extends Command {
