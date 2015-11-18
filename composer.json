@@ -16,6 +16,7 @@
     "php": ">=5.3.9",
 
     "typo3/cms": "dev-master",
+    "bk2k/bootstrap-package": "dev-master",
 
     "wfp2/puppet-modules": "dev-master",
     "wfp2/essentials": "@dev",
@@ -55,6 +56,10 @@
     {
       "type": "vcs",
       "url": "git@bitbucket.org:Sebastian_Seidelmann/typo3-extension-build-configuration.git"
+    },
+    {
+      "type": "composer",
+      "url": "http://composer.typo3.org/"
     }
   ]
 }
