@@ -59,6 +59,19 @@ define('WFP2_PATH_TYPO3TEMP', WFP2_PATH_APP . 'typo3temp' . DIRECTORY_SEPARATOR)
 class WFP2Environment
 {
     /**
+     * Returns the root path
+     * @param bool|false $relative
+     * @return string
+     */
+    static public function getRootPath($relative = false)
+    {
+        if ($relative) {
+            return self::getPathRelative(self::getRootPath());
+        }
+        return WFP2_PATH_ROOT;
+    }
+
+    /**
      * @param bool|false $relative
      * @return string
      */
